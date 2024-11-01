@@ -10,9 +10,8 @@ now = dt.datetime.now()
 letters_list = ["letter_1.txt", "letter_2.txt", "letter_3.txt"]
 random_letter = random.choice(letters_list)
 
-my_email = "waqarpython@gmail.com"
-password = "nxbfzsvpdqtcoszr"
-new_password = "johlbwithussjyon"
+my_email = "ENTER YOUR EMAIL ID HERE"
+password = "ENTER YOUR PASSWORD HERE"
 
 for x in range(len(df)):
     if df["month"].iloc[x] == now.month and df["day"].iloc[x] == now.day:
